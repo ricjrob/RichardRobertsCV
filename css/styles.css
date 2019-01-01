@@ -1,0 +1,154 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 1em;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.butn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+ background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+ background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+ text-decoration: none
+}
+
+.copywrite {
+  font-size: 0.75em;
+  color: #11999E;
+}
+
+.footer-link {
+  margin: 1em;
+  color: #eaf6f6;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-bottom: dotted #E3E3E3;
+  width: 5%;
+  border-width: 6px;
+}
+
+.icon-gmail {
+  height: 40px;
+  width: 40px;
+}
+
+.icon-maze {
+  height: 8%;
+  width: 8%;
+  float: left;
+  margin-right: 30px;
+}
+
+.icon-management {
+  height: 8%;
+  width: 8%;
+  float: right;
+  margin-left: 30px;
+}
+
+.icon2 {
+  height: 46px;
+  width: 25px;
+}
+
+.middle-container {
+  margin-top: 2em;
+  }
+
+p {
+color: #40514e;
+}
+
+.profile {
+  padding-bottom: 2em;
+}
+
+.Profile-Picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.skills{
+
+}
+
+.skill-row{
+  margin:4em auto 4em auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.Top {
+  /*grid-column: 1;
+    grid-row: 1;*/
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
